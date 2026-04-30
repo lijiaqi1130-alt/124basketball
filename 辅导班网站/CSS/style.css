@@ -1,0 +1,37 @@
+/* 全局样式 */
+body {
+    font-family: "微软雅黑",sans-serif;
+    padding-top: 58px;
+}
+/* 导航高亮 */
+.nav-link.active{
+    color: #ff5722 !important;
+    font-weight: bold;
+}
+/* 卡片悬浮动画 */
+.card{
+    transition: 0.3s all;
+}
+.card:hover{
+    transform: translateY(-6px);
+    box-shadow: 0 10px 25px rgba(0,0,0,0.15);
+}
+/* 图片hover缩放 */
+.img-scale{
+    transition: 0.4s;
+}
+.img-scale:hover{
+    transform: scale(1.05);
+}
+/* 返回顶部按钮 */
+#backTop{
+    position: fixed;
+    bottom: 40px;
+    right: 30px;
+    display: none;
+    z-index: 999;
+}
+footer{
+    background: #212529;
+    color: #aaa;
+}
